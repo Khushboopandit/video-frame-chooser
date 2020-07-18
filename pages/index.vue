@@ -65,6 +65,7 @@ export default {
         )
       ).data;
       this.frames = data;
+      console.log(data)
       //Set default frames for highlighting
       data.map((frame, index) => {
         let obj = {
